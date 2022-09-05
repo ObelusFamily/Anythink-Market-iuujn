@@ -1,7 +1,10 @@
 # Welcome to the Anythink Market repo
 
-To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the db.
-
+To start the app use Docker. It will start both frontend and backend, including all the relevant dependencies, and the dib.  
+First : Download Docker and follow along to download the files and stuff.
+Second : When docker is installed go to root of this repository to check whether frontend and backend is working or not on the local machine.
+Third : When navigated to the root directory , fire up the git bash and write "docker-compose up" and wait for some time.
+Fourth : After having a little amount of patience you will get the frontend and backend up and running.:)
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
 ## Development
