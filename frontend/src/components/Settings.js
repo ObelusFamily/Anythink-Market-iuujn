@@ -13,7 +13,7 @@ class SettingsForm extends React.Component {
     super();
 
     this.state = {
-      image: "",
+      image: "C:/Users/sling/OneDrive/Desktop/roho/Anythink-Market-iuujn/frontend/public/placeholder.png",
       username: "",
       bio: "",
       email: "",
@@ -70,7 +70,7 @@ class SettingsForm extends React.Component {
             <input
               className="form-control"
               type="text"
-              placeholder="C:/Users/sling/OneDrive/Desktop/roho/Anythink-Market-iuujn/frontend/public/placeholder.png"
+              placeholder="URL of profile picture"
               value={this.state.image}
               onChange={this.updateState("image")}
             />
